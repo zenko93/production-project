@@ -1,4 +1,4 @@
 # Project exclude paths
 /build
 node_modules/
-.idea
+.idea/
