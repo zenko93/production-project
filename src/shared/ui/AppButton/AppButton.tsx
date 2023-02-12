@@ -15,7 +15,7 @@ export const AppButton:FC<AppButtonProps> = (props) => {
     const {
         className,
         children,
-        theme = ThemeButton.CLEAR,
+        theme,
         ...otherProps
     } = props;
 
