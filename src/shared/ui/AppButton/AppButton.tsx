@@ -21,6 +21,7 @@ interface AppButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>{
     theme?: ButtonTheme;
     square?: boolean;
     size?: ButtonSize;
+    disabled?: boolean;
 }
 
 export const AppButton:FC<AppButtonProps> = (props) => {
@@ -29,12 +30,14 @@ export const AppButton:FC<AppButtonProps> = (props) => {
         children,
         theme,
         square,
+        disabled,
         size = ButtonSize.M,
         ...otherProps
     } = props;
 
     const mods: Record<string, boolean> = {
         [cls.square]: square,
+        [cls.disabled]: disabled,
     };
 
     const additional: string[] = [className, cls[theme], cls[size]];
@@ -43,6 +46,7 @@ export const AppButton:FC<AppButtonProps> = (props) => {
         <button
             type="button"
             className={classNames(cls.Button, mods, additional)}
+            disabled={disabled}
             {...otherProps}
         >
             {children}

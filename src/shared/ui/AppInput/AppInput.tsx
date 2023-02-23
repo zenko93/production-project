@@ -37,14 +37,21 @@ export const AppInput = memo((props: AppInputProps) => {
     };
 
     return (
-        <input
-            className={classNames(cls.AppInputWrapper, {}, [className])}
-            ref={inputRef}
-            type={type}
-            value={value}
-            placeholder={placeholder}
-            onChange={onChangeHandler}
-            {...otherProps}
-        />
+        <div className={classNames(cls.InputWrapper, {}, [className])}>
+            {placeholder && (
+                <div className={cls.placeholder}>
+                    {`${placeholder}>`}
+                </div>
+            )}
+
+            <input
+                className={cls.input}
+                ref={inputRef}
+                type={type}
+                value={value}
+                onChange={onChangeHandler}
+                {...otherProps}
+            />
+        </div>
     );
 });
