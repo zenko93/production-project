@@ -9,7 +9,7 @@ interface ThemeSwitcherProps {
 }
 
 export const ThemeSwitcher = ({ className }: ThemeSwitcherProps) => {
-    const { toggleTheme, theme } = useTheme();
+    const { toggleTheme } = useTheme();
 
     return (
         <AppButton
@@ -17,7 +17,7 @@ export const ThemeSwitcher = ({ className }: ThemeSwitcherProps) => {
             theme={ButtonTheme.CLEAR}
             className={classNames(cls.ThemeSwitcher, {}, [className])}
         >
-            <ThemeIcon className={cls[theme]} />
+            <ThemeIcon className={cls.icon} />
         </AppButton>
     );
 };

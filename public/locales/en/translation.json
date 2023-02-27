@@ -4,9 +4,16 @@
   "Главная страница": "Main page",
   "Язык": "English",
   "Страница не найдена": "Page not found",
-  "Произошла непредвиденная ошибка": "Произошла непредвиденная ошибка",
+  "Произошла непредвиденная ошибка": "Unexpected error",
   "Обновить страницу": "Reload the page",
   "trow error": "trow error",
-  "Переключить": "Переключить",
-  "Короткий язык": "En"
+  "Переключить": "Toggle",
+  "Короткий язык": "En",
+  "Войти": "Log in",
+  "decrement": "Decrement",
+  "Введите username": "Enter username",
+  "Введите password": "Enter password",
+  "Форма авторизации": "Log in form",
+  "Вы ввели неправильный логин или пароль": "Incorrect login or password",
+  "Выйти": "Выйти"
 }
