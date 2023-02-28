@@ -62,6 +62,7 @@ module.exports = {
         'react-hooks/exhaustive-deps': 'error',
         'no-param-reassign': 'off',
         'prefer-arrow-callback': 'off',
+        'no-undef': 'off',
 
     },
     globals: {
