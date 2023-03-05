@@ -16,5 +16,8 @@
   "Форма авторизации": "Log in form",
   "Вы ввели неправильный логин или пароль": "Incorrect login or password",
   "Выйти": "Выйти",
-  "PROFILE": "PROFILE"
+  "PROFILE": "PROFILE",
+  "Отменить": "Отменить",
+  "Сохранить": "Сохранить",
+  "avatar": "avatar"
 }
