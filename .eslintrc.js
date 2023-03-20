@@ -63,6 +63,7 @@ module.exports = {
         'no-param-reassign': 'off',
         'prefer-arrow-callback': 'off',
         'no-undef': 'off',
+        'react/no-array-index-key': 'off',
 
     },
     globals: {
