@@ -88,7 +88,7 @@
       "id": "2",
       "title": "Python news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "data:image/jpeg;base64,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",
+      "img": "https://zsfond.ru/wp-content/uploads/2021/03/piton-1-1024x578.jpg",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
@@ -104,54 +104,6 @@
             "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
             "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
             "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
-          ]
-        },
-        {
-          "id": "4",
-          "type": "CODE",
-          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
-        },
-        {
-          "id": "5",
-          "type": "TEXT",
-          "title": "Заголовок этого блока",
-          "paragraphs": [
-            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
-            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
-          ]
-        },
-        {
-          "id": "2",
-          "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Рисунок 1 - скриншот сайта"
-        },
-        {
-          "id": "3",
-          "type": "CODE",
-          "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
-        },
-        {
-          "id": "7",
-          "type": "TEXT",
-          "title": "Заголовок этого блока",
-          "paragraphs": [
-            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
-            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
-          ]
-        },
-        {
-          "id": "8",
-          "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Рисунок 1 - скриншот сайта"
-        },
-        {
-          "id": "9",
-          "type": "TEXT",
-          "title": "Заголовок этого блока",
-          "paragraphs": [
-            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы."
           ]
         }
       ]
@@ -160,7 +112,7 @@
       "id": "3",
       "title": "Kotlin news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "data:image/jpeg;base64,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",
+      "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
@@ -177,53 +129,341 @@
             "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
             "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Python news",
+      "subtitle": "Что нового в JS за 2022 год?",
+      "img": "https://zsfond.ru/wp-content/uploads/2021/03/piton-1-1024x578.jpg",
+      "views": 1022,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
         {
-          "id": "4",
-          "type": "CODE",
-          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
-        },
-        {
-          "id": "5",
+          "id": "1",
           "type": "TEXT",
           "title": "Заголовок этого блока",
           "paragraphs": [
             "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
-            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
-          ]
-        },
-        {
-          "id": "2",
-          "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Рисунок 1 - скриншот сайта"
-        },
-        {
-          "id": "3",
-          "type": "CODE",
-          "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
-        },
-        {
-          "id": "7",
-          "type": "TEXT",
-          "title": "Заголовок этого блока",
-          "paragraphs": [
             "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
             "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Kotlin news",
+      "subtitle": "Что нового в JS за 2022 год?",
+      "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
+      "views": 1022,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
         {
-          "id": "8",
-          "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Рисунок 1 - скриншот сайта"
-        },
-        {
-          "id": "9",
+          "id": "1",
           "type": "TEXT",
           "title": "Заголовок этого блока",
           "paragraphs": [
-            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы."
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Python news",
+      "subtitle": "Что нового в JS за 2022 год?",
+      "img": "https://zsfond.ru/wp-content/uploads/2021/03/piton-1-1024x578.jpg",
+      "views": 1022,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Kotlin news",
+      "subtitle": "Что нового в JS за 2022 год?",
+      "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
+      "views": 1022,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Python news",
+      "subtitle": "Что нового в JS за 2022 год?",
+      "img": "https://zsfond.ru/wp-content/uploads/2021/03/piton-1-1024x578.jpg",
+      "views": 1022,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Kotlin news",
+      "subtitle": "Что нового в JS за 2022 год?",
+      "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
+      "views": 1022,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Python news",
+      "subtitle": "Что нового в JS за 2022 год?",
+      "img": "https://zsfond.ru/wp-content/uploads/2021/03/piton-1-1024x578.jpg",
+      "views": 1022,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Kotlin news",
+      "subtitle": "Что нового в JS за 2022 год?",
+      "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
+      "views": 1022,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Python news",
+      "subtitle": "Что нового в JS за 2022 год?",
+      "img": "https://zsfond.ru/wp-content/uploads/2021/03/piton-1-1024x578.jpg",
+      "views": 1022,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Kotlin news",
+      "subtitle": "Что нового в JS за 2022 год?",
+      "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
+      "views": 1022,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Python news",
+      "subtitle": "Что нового в JS за 2022 год?",
+      "img": "https://zsfond.ru/wp-content/uploads/2021/03/piton-1-1024x578.jpg",
+      "views": 1022,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Kotlin news",
+      "subtitle": "Что нового в JS за 2022 год?",
+      "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
+      "views": 1022,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Python news",
+      "subtitle": "Что нового в JS за 2022 год?",
+      "img": "https://zsfond.ru/wp-content/uploads/2021/03/piton-1-1024x578.jpg",
+      "views": 1022,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Kotlin news",
+      "subtitle": "Что нового в JS за 2022 год?",
+      "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
+      "views": 1022,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
           ]
         }
       ]
