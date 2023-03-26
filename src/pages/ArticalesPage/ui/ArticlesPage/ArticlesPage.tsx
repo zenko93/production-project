@@ -7,8 +7,8 @@ import { useAppDispatch } from 'shared/lib/hooks/useAppDispatch/useAppDispatch';
 import { useInitialEffect } from 'shared/lib/hooks/useInitialEffect/useInitialEffect';
 import { useSelector } from 'react-redux';
 import { Page } from 'shared/ui/Page/Page';
-import { fetchNextArticlesPage } from 'pages/ArticalesPage/model/servies/fetchNextArticlesPage/fetchNextArticlesPage';
-import { fetchArticlesList } from '../../model/servies/fetchArticlesList/fetchArticlesList';
+import { fetchNextArticlesPage } from '../../model/servies/fetchNextArticlesPage/fetchNextArticlesPage';
+import { initArticlesPage } from '../../model/servies/initArticlesPage/initArticlesPage';
 import {
     getArticlesPageError,
     getArticlesPageIsLoading,
@@ -42,14 +42,11 @@ const ArticlesPage = ({ className }: ArticlesPageProps) => {
     }, [dispatch]);
 
     useInitialEffect(() => {
-        dispatch(articlesPageActions.initState());
-        dispatch(fetchArticlesList({
-            page: 1,
-        }));
+        dispatch(initArticlesPage());
     });
 
     return (
-        <DynamicModuleLoader reducers={reducers}>
+        <DynamicModuleLoader reducers={reducers} removeAfterUnmount={false}>
             <Page
                 onScrollEnd={onLoadNextPart}
                 className={classNames(cls.ArticlesPage, {}, [className])}
