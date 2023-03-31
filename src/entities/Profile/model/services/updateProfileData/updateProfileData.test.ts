@@ -4,6 +4,7 @@ import { Currency } from 'entities/Currency';
 import { updateProfileData, ValidateProfileError } from 'entities/Profile';
 
 const data = {
+    id: '1',
     username: 'admin',
     age: 22,
     country: Country.Ukraine,

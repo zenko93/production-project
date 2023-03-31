@@ -5,6 +5,9 @@ import { AppButton, ButtonTheme } from 'shared/ui/AppButton/AppButton';
 import { LoginModal } from 'features/AuthByUserName';
 import { useDispatch, useSelector } from 'react-redux';
 import { getUserAuthData, userActions } from 'entities/User';
+import { Text, TextTheme } from 'shared/ui/Text/Text';
+import { AppLink, AppLinkTheme } from 'shared/ui/AppLink/AppLink';
+import { RoutePath } from 'shared/config/routeConfig/routeConfig';
 import cls from './Navbar.module.scss';
 
 interface NavbarProps {
@@ -31,7 +34,19 @@ export const Navbar = memo(function Navbar({ className }: NavbarProps) {
 
     if (authData) {
         return (
-            <div className={classNames(cls.Navbar, {}, [className])}>
+            <header className={classNames(cls.Navbar, {}, [className])}>
+                <Text
+                    className={cls.appName}
+                    title={t('Prod App')}
+                    theme={TextTheme.INVERTED}
+                />
+                <AppLink
+                    to={RoutePath.article_create}
+                    theme={AppLinkTheme.INVERTED}
+                    className={cls.createBtn}
+                >
+                    {t('Создать статью')}
+                </AppLink>
                 <AppButton
                     theme={ButtonTheme.CLEAR_INVERTED}
                     className={cls.links}
@@ -39,12 +54,12 @@ export const Navbar = memo(function Navbar({ className }: NavbarProps) {
                 >
                     {t('Выйти')}
                 </AppButton>
-            </div>
+            </header>
         );
     }
 
     return (
-        <div className={classNames(cls.Navbar, {}, [className])}>
+        <header className={classNames(cls.Navbar, {}, [className])}>
             <AppButton
                 theme={ButtonTheme.CLEAR_INVERTED}
                 className={cls.links}
@@ -58,6 +73,6 @@ export const Navbar = memo(function Navbar({ className }: NavbarProps) {
                     onClose={onCloseModal}
                 />
             )}
-        </div>
+        </header>
     );
 });
