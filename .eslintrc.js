@@ -22,6 +22,7 @@ module.exports = {
         '@typescript-eslint',
         'i18next',
         'react-hooks',
+        'sych-fsd',
     ],
     rules: {
         'react/jsx-indent': [2, 4],
@@ -65,6 +66,7 @@ module.exports = {
         'no-undef': 'off',
         'react/no-array-index-key': 'off',
         'arrow-body-style': 'off',
+        // 'sych-fsd/path-checker': 'error',
     },
     globals: {
         __IS_DEV__: true,
