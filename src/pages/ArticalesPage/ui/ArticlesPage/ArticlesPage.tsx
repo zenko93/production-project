@@ -7,6 +7,7 @@ import { useInitialEffect } from 'shared/lib/hooks/useInitialEffect/useInitialEf
 import { useSelector } from 'react-redux';
 import { Page } from 'widgets/Page/Page';
 import { useSearchParams } from 'react-router-dom';
+import { ArticleInfiniteList } from 'pages/ArticalesPage/ui/ArticleInfiniteList/ArticleInfiniteList';
 import { ArticlesPageFilters } from '../ArticlesPageFilters/ArticlesPageFilters';
 import { fetchNextArticlesPage } from '../../model/servies/fetchNextArticlesPage/fetchNextArticlesPage';
 import { initArticlesPage } from '../../model/servies/initArticlesPage/initArticlesPage';
@@ -28,10 +29,6 @@ const reducers: ReducersList = {
 
 const ArticlesPage = ({ className }: ArticlesPageProps) => {
     const dispatch = useAppDispatch();
-    const articles = useSelector(getArticles.selectAll);
-    const isLoading = useSelector(getArticlesPageIsLoading);
-    const view = useSelector(getArticlesPageView);
-    const error = useSelector(getArticlesPageError);
     const [searchParams] = useSearchParams();
 
     const onLoadNextPart = useCallback(() => {
@@ -49,12 +46,7 @@ const ArticlesPage = ({ className }: ArticlesPageProps) => {
                 className={classNames(cls.ArticlesPage, {}, [className])}
             >
                 <ArticlesPageFilters />
-                <ArticleList
-                    isLoading={isLoading}
-                    view={view}
-                    articles={articles}
-                    className={cls.list}
-                />
+                <ArticleInfiniteList className={cls.list} />
             </Page>
         </DynamicModuleLoader>
     );

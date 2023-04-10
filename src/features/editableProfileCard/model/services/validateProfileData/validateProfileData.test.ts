@@ -1,6 +1,6 @@
 import { Country } from 'entities/Country';
 import { Currency } from 'entities/Currency';
-import { ValidateProfileError } from 'entities/Profile';
+import { ValidateProfileError } from '../../types/editableProfileCardSchema';
 import { validateProfileData } from './validateProfileData';
 
 const data = {
@@ -45,7 +45,7 @@ describe('validateProfileData.test', () => {
     });
 
     test('incorrect all', async () => {
-        const result = validateProfileData({ });
+        const result = validateProfileData({});
 
         expect(result).toEqual([
             ValidateProfileError.INCORRECT_USER_DATA,
