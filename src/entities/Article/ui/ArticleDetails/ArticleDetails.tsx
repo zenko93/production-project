@@ -15,7 +15,8 @@ import { ArticleImageBlockComponent } from 'entities/Article/ui/ArticleImageBloc
 import { ArticleTextBlockComponent } from 'entities/Article/ui/ArticleTextBlockComponent/ArticleTextBlockComponent';
 import { useInitialEffect } from 'shared/lib/hooks/useInitialEffect/useInitialEffect';
 import { HStack, VStack } from 'shared/ui/Stack';
-import { ArticleBlock, ArticleBlockType } from '../../model/types/article';
+import { ArticleBlockType } from 'entities/Article/model/consts/consts';
+import { ArticleBlock } from '../../model/types/article';
 import {
     getArticleDetailsData,
     getArticleDetailsError,
