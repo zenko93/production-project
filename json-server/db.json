@@ -553,6 +553,12 @@
       "userId": "1",
       "text": "yoyoy",
       "id": "nlGEGkm"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "wer",
+      "id": "w45ecrZ"
     }
   ],
   "users": [
@@ -560,21 +566,27 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "roles": ["ADMIN"],
+      "roles": [
+        "ADMIN"
+      ],
       "avatar": "https://xakep.ru/wp-content/uploads/2018/05/171485/KuroiSH-hacker.jpg"
     },
     {
       "id": "2",
       "username": "user",
       "password": "123",
-      "roles": ["USER"],
+      "roles": [
+        "USER"
+      ],
       "avatar": "https://www.osp.ru/FileStorage/DOCUMENTS_ILLUSTRATIONS/13237083/original.jpg"
     },
     {
       "id": "3",
       "username": "manager",
       "password": "123",
-      "roles": ["MANAGER"],
+      "roles": [
+        "MANAGER"
+      ],
       "avatar": "https://www.osp.ru/FileStorage/DOCUMENTS_ILLUSTRATIONS/13237083/original.jpg"
     }
   ],
@@ -595,7 +607,7 @@
       "first": "vimal",
       "lastname": "asf",
       "age": 465,
-      "currency": "RUB",
+      "currency": "EUR",
       "country": "Belarus",
       "city": "Moscow",
       "username": "admin213",
