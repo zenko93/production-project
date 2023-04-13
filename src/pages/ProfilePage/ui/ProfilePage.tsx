@@ -13,11 +13,6 @@ interface ProfilePageProps {
 
 const ProfilePage = memo(function ProfilePage({ className }: ProfilePageProps) {
     const { id } = useParams<{ id: string}>();
-    const { t } = useTranslation('profile');
-
-    if (!id) {
-        return <Text text={t('Профиль не найден')} />;
-    }
 
     return (
         <Page className={classNames('', {}, [className])}>
