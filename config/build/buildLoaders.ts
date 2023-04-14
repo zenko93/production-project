@@ -6,11 +6,11 @@ import { buildBabelLoader } from './loaders/buildbabelLoader';
 
 export function buildLoaders({ isDev }: BuildOptions): webpack.RuleSetRule[] {
     // Если не используем type-script - нужен babel-loader
-    const typescriptLoader = {
-        test: /\.tsx?$/,
-        use: 'ts-loader',
-        exclude: /node_modules/,
-    };
+    // const typescriptLoader = {
+    //     test: /\.tsx?$/,
+    //     use: 'ts-loader',
+    //     exclude: /node_modules/,
+    // };
 
     const cssLoaders = buildCssLoaders(isDev);
 
@@ -25,11 +25,12 @@ export function buildLoaders({ isDev }: BuildOptions): webpack.RuleSetRule[] {
         ],
     };
 
-    const babelLoader = buildBabelLoader();
+    const codeBabelLoader = buildBabelLoader(false);
+    const tsxCodeBabelLoader = buildBabelLoader(true);
 
     return [
-        babelLoader,
-        typescriptLoader,
+        codeBabelLoader,
+        tsxCodeBabelLoader,
         cssLoaders,
         svgLoader,
         fileLoader,

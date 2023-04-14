@@ -76,7 +76,7 @@ module.exports = {
         'no-undef': 'off',
         'react/no-array-index-key': 'off',
         'arrow-body-style': 'off',
-        // 'sych-fsd/path-checker': 'error',
+        'sych-fsd/path-checker': 'error',
     },
     globals: {
         __IS_DEV__: true,

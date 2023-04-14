@@ -1,4 +1,4 @@
-import { AddCommentFormAsync } from 'features/AddCommentForm/ui/AddCommentForm/AddCommentForm.async';
+import { AddCommentFormAsync } from './ui/AddCommentForm/AddCommentForm.async';
 
 export type { AddCommentFormSchema } from './model/types/addCommentForm';
 export {
