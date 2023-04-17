@@ -1,4 +1,4 @@
-import { UserRole } from 'entities/User/consts/consts';
+import { UserRole } from '@/entities/User/consts/consts';
 
 export interface User {
     id: string;
