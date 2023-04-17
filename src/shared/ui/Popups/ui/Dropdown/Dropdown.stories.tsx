@@ -1,7 +1,6 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import { AppButton } from 'shared/ui/AppButton/AppButton';
 import { Dropdown } from './Dropdown';
 
 export default {
@@ -16,7 +15,8 @@ const Template: ComponentStory<typeof Dropdown> = (args) => <Dropdown {...args} 
 
 export const Normal = Template.bind({});
 Normal.args = {
-    trigger: <AppButton>Open</AppButton>,
+    // eslint-disable-next-line react/button-has-type
+    trigger: <button>Open</button>,
     items: [
         {
             content: 'first',
