@@ -26,6 +26,7 @@ interface AppButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>{
     size?: ButtonSize;
     disabled?: boolean;
     children?: ReactNode;
+    fullWidth?: boolean;
 }
 
 export const AppButton = memo(function AppButton(props: AppButtonProps) {
@@ -35,6 +36,7 @@ export const AppButton = memo(function AppButton(props: AppButtonProps) {
         theme = ButtonTheme.OUTLINE,
         square,
         disabled,
+        fullWidth,
         size = ButtonSize.M,
         ...otherProps
     } = props;
@@ -42,6 +44,7 @@ export const AppButton = memo(function AppButton(props: AppButtonProps) {
     const mods: Mods = {
         [cls.square]: square,
         [cls.disabled]: disabled,
+        [cls.fullWidth]: fullWidth,
     };
 
     const additional: string[] = [className, cls[theme], cls[size]];
