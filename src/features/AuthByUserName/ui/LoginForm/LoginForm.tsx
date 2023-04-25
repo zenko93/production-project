@@ -4,9 +4,9 @@ import {
 } from 'react';
 import { useSelector } from 'react-redux';
 import { classNames } from '@/shared/lib/classNames/classNames';
-import { AppButton, ButtonTheme } from '@/shared/ui/AppButton/AppButton';
-import { AppInput } from '@/shared/ui/AppInput/AppInput';
-import { Text, TextTheme } from '@/shared/ui/Text/Text';
+import { AppButton, ButtonTheme } from '@/shared/ui/AppButton';
+import { AppInput } from '@/shared/ui/AppInput';
+import { Text, TextTheme } from '@/shared/ui/Text';
 import { DynamicModuleLoader, ReducersList } from '@/shared/lib/components/DynamicModuleLoader/DynamicModuleLoader';
 import { useAppDispatch } from '@/shared/lib/hooks/useAppDispatch/useAppDispatch';
 import { getLoginUsername } from '../../model/selectors/getLoginUsername/getLoginUsername';
