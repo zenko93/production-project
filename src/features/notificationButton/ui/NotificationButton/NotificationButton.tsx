@@ -7,7 +7,6 @@ import { Popover } from '@/shared/ui/Popups';
 import { AppButton, ButtonTheme } from '@/shared/ui/AppButton';
 import { Drawer } from '@/shared/ui/Drawer';
 import { isMobileDevice } from '@/shared/lib/detectDevice/detectDevice';
-import { AnimationProvider } from '@/shared/lib/components/AnimationProvider';
 import cls from './NotificationButton.module.scss';
 
 interface NotificationButtonProps {
