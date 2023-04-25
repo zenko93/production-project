@@ -1,8 +1,8 @@
 import { memo, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { classNames } from '@/shared/lib/classNames/classNames';
-import { ThemeSwitcher } from '@/widgets/ThemeSwitcher';
-import { LangSwitcher } from '@/widgets/LangSwitcher';
+import { ThemeSwitcher } from '@/features/ThemeSwitcher';
+import { LangSwitcher } from '@/features/LangSwitcher';
 import { AppButton, ButtonSize, ButtonTheme } from '@/shared/ui/AppButton/AppButton';
 import { VStack } from '@/shared/ui/Stack';
 import { SideBarItem } from '../SideBarItem/SideBarItem';

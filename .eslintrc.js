@@ -78,6 +78,13 @@ module.exports = {
         'react/no-array-index-key': 'off',
         'arrow-body-style': 'off',
         'evgen-fsd/path-checker': ['error', { alias: '@' }],
+        'evgen-fsd/layer-imports': [
+            'error',
+            {
+                alias: '@',
+                ignoreImportPatterns: ['**/StoreProvider', '**/testing'],
+            },
+        ],
         'evgen-fsd/public-api-imports': [
             'error',
             {
