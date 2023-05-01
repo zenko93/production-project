@@ -18,8 +18,8 @@ export function buildLoaders({ isDev }: BuildOptions): webpack.RuleSetRule[] {
         ],
     };
 
-    const codeBabelLoader = buildBabelLoader(false);
-    const tsxCodeBabelLoader = buildBabelLoader(true);
+    const codeBabelLoader = buildBabelLoader(false, isDev);
+    const tsxCodeBabelLoader = buildBabelLoader(true, isDev);
 
     return [
         codeBabelLoader,

@@ -610,6 +610,15 @@
         "MANAGER"
       ],
       "avatar": "https://www.osp.ru/FileStorage/DOCUMENTS_ILLUSTRATIONS/13237083/original.jpg"
+    },
+    {
+      "id": "4",
+      "username": "testuser",
+      "password": "123",
+      "roles": [
+        "MANAGER"
+      ],
+      "avatar": "https://www.osp.ru/FileStorage/DOCUMENTS_ILLUSTRATIONS/13237083/original.jpg"
     }
   ],
   "profile": [
