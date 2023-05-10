@@ -6,10 +6,12 @@ import cls from './ThemeSwitcher.module.scss';
 import { useTheme } from '@/shared/lib/hooks/useTheme/useTheme';
 
 interface ThemeSwitcherProps {
-  className?: string;
+    className?: string;
 }
 
-export const ThemeSwitcher = memo(function ThemeSwitcher({ className }: ThemeSwitcherProps) {
+export const ThemeSwitcher = memo(function ThemeSwitcher({
+    className,
+}: ThemeSwitcherProps) {
     const { toggleTheme } = useTheme();
 
     return (

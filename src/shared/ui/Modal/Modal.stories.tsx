@@ -17,13 +17,15 @@ const Template: ComponentStory<typeof Modal> = (args) => <Modal {...args} />;
 
 export const ModalNormal = Template.bind({});
 ModalNormal.args = {
-    children: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis deleniti dolorum ea ex natus nemo nisi rerum sunt? Architecto, odit.',
+    children:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis deleniti dolorum ea ex natus nemo nisi rerum sunt? Architecto, odit.',
     isOpen: true,
 };
 
 export const ModalDark = Template.bind({});
 ModalDark.args = {
-    children: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis deleniti dolorum ea ex natus nemo nisi rerum sunt? Architecto, odit.',
+    children:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis deleniti dolorum ea ex natus nemo nisi rerum sunt? Architecto, odit.',
     isOpen: true,
 };
 ModalDark.decorators = [ThemeDecorator(Theme.DARK)];

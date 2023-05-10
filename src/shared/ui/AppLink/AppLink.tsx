@@ -4,14 +4,14 @@ import { classNames } from '@/shared/lib/classNames/classNames';
 import cls from './AppLink.module.scss';
 
 export enum AppLinkTheme {
-  PRIMARY = 'primary',
-  INVERTED = 'inverted',
+    PRIMARY = 'primary',
+    INVERTED = 'inverted',
 }
 
 interface AppLinkProps extends LinkProps {
-  className?: string;
-  theme?: AppLinkTheme;
-  children?: ReactNode;
+    className?: string;
+    theme?: AppLinkTheme;
+    children?: ReactNode;
 }
 
 export const AppLink = memo(function AppLink(props: AppLinkProps) {

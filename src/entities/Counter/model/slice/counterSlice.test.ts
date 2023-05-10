@@ -7,8 +7,9 @@ describe('counterSlice.test', () => {
             value: 10,
         };
 
-        expect(counterReducer(state, counterActions.increment()))
-            .toEqual({ value: 11 });
+        expect(counterReducer(state, counterActions.increment())).toEqual({
+            value: 11,
+        });
     });
 
     test('decrement', () => {
@@ -16,12 +17,14 @@ describe('counterSlice.test', () => {
             value: 10,
         };
 
-        expect(counterReducer(state, counterActions.decrement()))
-            .toEqual({ value: 9 });
+        expect(counterReducer(state, counterActions.decrement())).toEqual({
+            value: 9,
+        });
     });
 
     test('should work with empty state', () => {
-        expect(counterReducer(undefined, counterActions.decrement()))
-            .toEqual({ value: -1 });
+        expect(counterReducer(undefined, counterActions.decrement())).toEqual({
+            value: -1,
+        });
     });
 });

@@ -10,7 +10,11 @@ interface LoginModalProps {
     onClose: () => void;
 }
 
-export const LoginModal = memo(function LoginModal({ className, isOpen, onClose }: LoginModalProps) {
+export const LoginModal = memo(function LoginModal({
+    className,
+    isOpen,
+    onClose,
+}: LoginModalProps) {
     return (
         <Modal
             className={classNames('', {}, [className])}

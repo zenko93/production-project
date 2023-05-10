@@ -4,11 +4,14 @@ import { classNames } from '@/shared/lib/classNames/classNames';
 import { AppButton, ButtonTheme } from '@/shared/ui/AppButton';
 
 interface LangSwitcherProps {
-  className?: string;
-  short?: boolean;
+    className?: string;
+    short?: boolean;
 }
 
-export const LangSwitcher = memo(function LangSwitcher({ className, short }: LangSwitcherProps) {
+export const LangSwitcher = memo(function LangSwitcher({
+    className,
+    short,
+}: LangSwitcherProps) {
     const { t, i18n } = useTranslation();
 
     const toggleLanguage = () => {

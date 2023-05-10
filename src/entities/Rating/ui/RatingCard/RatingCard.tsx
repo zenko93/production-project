@@ -37,14 +37,17 @@ export const RatingCard = memo((props: RatingCardProps) => {
     const [feedback, setFeedback] = useState('');
     const isMobile = isMobileDevice();
 
-    const onSelectStars = useCallback((selectedStarsCount: number) => {
-        setStarsCount(selectedStarsCount);
-        if (hasFeedback) {
-            setIsModalOpen(true);
-        } else {
-            onAccept?.(selectedStarsCount);
-        }
-    }, [hasFeedback, onAccept]);
+    const onSelectStars = useCallback(
+        (selectedStarsCount: number) => {
+            setStarsCount(selectedStarsCount);
+            if (hasFeedback) {
+                setIsModalOpen(true);
+            } else {
+                onAccept?.(selectedStarsCount);
+            }
+        },
+        [hasFeedback, onAccept],
+    );
 
     const acceptHandle = useCallback(() => {
         setIsModalOpen(false);
@@ -91,7 +94,10 @@ export const RatingCard = memo((props: RatingCardProps) => {
                     >
                         {t('Закрыть')}
                     </AppButton>
-                    <AppButton data-testid="RatingCard.Send" onClick={acceptHandle}>
+                    <AppButton
+                        data-testid="RatingCard.Send"
+                        onClick={acceptHandle}
+                    >
                         {t('Отправить')}
                     </AppButton>
                 </HStack>
@@ -107,9 +113,13 @@ export const RatingCard = memo((props: RatingCardProps) => {
         >
             <VStack align="center" gap="8">
                 <Text title={starsCount ? t('Спасибо за оценку') : title} />
-                <StarRating selectedStars={starsCount} size={40} onSelect={onSelectStars} />
+                <StarRating
+                    selectedStars={starsCount}
+                    size={40}
+                    onSelect={onSelectStars}
+                />
             </VStack>
-            { isMobile ? mobileView : browserView }
+            {isMobile ? mobileView : browserView}
         </Card>
     );
 });

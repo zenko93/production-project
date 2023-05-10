@@ -12,7 +12,10 @@ interface SideBarItemProps {
     collapsed: boolean;
 }
 
-export const SideBarItem = memo(function SideBarItem({ item, collapsed }: SideBarItemProps) {
+export const SideBarItem = memo(function SideBarItem({
+    item,
+    collapsed,
+}: SideBarItemProps) {
     const { t } = useTranslation();
 
     const isAuth = useSelector(getUserAuthData);
@@ -28,9 +31,7 @@ export const SideBarItem = memo(function SideBarItem({ item, collapsed }: SideBa
             className={classNames(cls.item, { [cls.collapsed]: collapsed }, [])}
         >
             <item.Icon className={cls.icon} />
-            <span className={cls.link}>
-                {t(item.text)}
-            </span>
+            <span className={cls.link}>{t(item.text)}</span>
         </AppLink>
     );
 });

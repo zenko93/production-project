@@ -1,13 +1,14 @@
 import { useTranslation } from 'react-i18next';
-import {
-    memo, useCallback, useEffect,
-} from 'react';
+import { memo, useCallback, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import { classNames } from '@/shared/lib/classNames/classNames';
 import { AppButton, ButtonTheme } from '@/shared/ui/AppButton';
 import { AppInput } from '@/shared/ui/AppInput';
 import { Text, TextTheme } from '@/shared/ui/Text';
-import { DynamicModuleLoader, ReducersList } from '@/shared/lib/components/DynamicModuleLoader/DynamicModuleLoader';
+import {
+    DynamicModuleLoader,
+    ReducersList,
+} from '@/shared/lib/components/DynamicModuleLoader/DynamicModuleLoader';
 import { useAppDispatch } from '@/shared/lib/hooks/useAppDispatch/useAppDispatch';
 import { getLoginUsername } from '../../model/selectors/getLoginUsername/getLoginUsername';
 import { getLoginPassword } from '../../model/selectors/getLoginPassword/getLoginPassword';
@@ -26,7 +27,10 @@ const initialReducers: ReducersList = {
     loginForm: loginReducer,
 };
 
-const LoginForm = memo(function LoginForm({ className, onSuccess }: LoginFormProps) {
+const LoginForm = memo(function LoginForm({
+    className,
+    onSuccess,
+}: LoginFormProps) {
     const { t } = useTranslation();
     const dispatch = useAppDispatch();
     const username = useSelector(getLoginUsername);
@@ -34,13 +38,19 @@ const LoginForm = memo(function LoginForm({ className, onSuccess }: LoginFormPro
     const isLoading = useSelector(getLoginIsLoading);
     const error = useSelector(getLoginError);
 
-    const onChangeUsername = useCallback((value: string) => {
-        dispatch(loginActions.setUsername(value));
-    }, [dispatch]);
+    const onChangeUsername = useCallback(
+        (value: string) => {
+            dispatch(loginActions.setUsername(value));
+        },
+        [dispatch],
+    );
 
-    const onChangePassword = useCallback((value: string) => {
-        dispatch(loginActions.setPassword(value));
-    }, [dispatch]);
+    const onChangePassword = useCallback(
+        (value: string) => {
+            dispatch(loginActions.setPassword(value));
+        },
+        [dispatch],
+    );
 
     const onLoginClick = useCallback(async () => {
         const result = await dispatch(loginByUsername({ username, password }));
@@ -50,11 +60,14 @@ const LoginForm = memo(function LoginForm({ className, onSuccess }: LoginFormPro
         }
     }, [dispatch, onSuccess, password, username]);
 
-    const onKeyDown = useCallback((e: KeyboardEvent) => {
-        if (e.key === 'Enter') {
-            onLoginClick();
-        }
-    }, [onLoginClick]);
+    const onKeyDown = useCallback(
+        (e: KeyboardEvent) => {
+            if (e.key === 'Enter') {
+                onLoginClick();
+            }
+        },
+        [onLoginClick],
+    );
 
     useEffect(() => {
         window.addEventListener('keydown', onKeyDown);
@@ -68,7 +81,12 @@ const LoginForm = memo(function LoginForm({ className, onSuccess }: LoginFormPro
         <DynamicModuleLoader reducers={initialReducers} removeAfterUnmount>
             <div className={classNames(cls.LoginForm, {}, [className])}>
                 <Text title={t('Форма авторизации')} />
-                {error && <Text text={t('Вы ввели неправильный логин или пароль')} theme={TextTheme.ERROR} /> }
+                {error && (
+                    <Text
+                        text={t('Вы ввели неправильный логин или пароль')}
+                        theme={TextTheme.ERROR}
+                    />
+                )}
                 <AppInput
                     type="text"
                     placeholder={t('Введите username')}

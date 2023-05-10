@@ -14,8 +14,6 @@ export const BugButton = () => {
     }, [error]);
 
     return (
-        <AppButton onClick={() => setError(true)}>
-            {t('trow error')}
-        </AppButton>
+        <AppButton onClick={() => setError(true)}>{t('trow error')}</AppButton>
     );
 };

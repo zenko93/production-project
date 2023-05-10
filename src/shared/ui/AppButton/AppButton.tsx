@@ -1,6 +1,4 @@
-import {
-    ButtonHTMLAttributes, memo, ReactNode,
-} from 'react';
+import { ButtonHTMLAttributes, memo, ReactNode } from 'react';
 import { classNames, Mods } from '@/shared/lib/classNames/classNames';
 import cls from './AppButton.module.scss';
 
@@ -19,7 +17,7 @@ export enum ButtonSize {
     XL = 'size_xl',
 }
 
-interface AppButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>{
+interface AppButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     className?: string;
     /**
      * Тема кнопки. Отвечает за визуал (в рамке, без стилей, противоположный теме приложения цвет и тд)

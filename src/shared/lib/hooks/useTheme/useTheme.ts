@@ -4,8 +4,8 @@ import { Theme } from '../../../const/theme';
 import { LOCAL_STORAGE_THEME_KEY } from '../../../const/loaclstorage';
 
 interface UseThemeResult {
-  theme: Theme,
-  toggleTheme: () => void;
+    theme: Theme;
+    toggleTheme: () => void;
 }
 
 export function useTheme(): UseThemeResult {
@@ -15,17 +15,17 @@ export function useTheme(): UseThemeResult {
         let newTheme: Theme;
 
         switch (theme) {
-        case Theme.DARK:
-            newTheme = Theme.LIGHT;
-            break;
-        case Theme.LIGHT:
-            newTheme = Theme.ORANGE;
-            break;
-        case Theme.ORANGE:
-            newTheme = Theme.DARK;
-            break;
-        default:
-            newTheme = Theme.DARK;
+            case Theme.DARK:
+                newTheme = Theme.LIGHT;
+                break;
+            case Theme.LIGHT:
+                newTheme = Theme.ORANGE;
+                break;
+            case Theme.ORANGE:
+                newTheme = Theme.DARK;
+                break;
+            default:
+                newTheme = Theme.DARK;
         }
 
         setTheme?.(newTheme);

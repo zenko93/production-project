@@ -13,7 +13,9 @@ export default {
     },
 } as ComponentMeta<typeof NotFoundPage>;
 
-const Template: ComponentStory<typeof NotFoundPage> = (args) => <NotFoundPage {...(args as typeof NotFoundPage)} />;
+const Template: ComponentStory<typeof NotFoundPage> = (args) => (
+    <NotFoundPage {...(args as typeof NotFoundPage)} />
+);
 
 export const Light = Template.bind({});
 Light.args = {};
