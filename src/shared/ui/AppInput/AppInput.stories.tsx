@@ -10,7 +10,9 @@ export default {
     },
 } as ComponentMeta<typeof AppInput>;
 
-const Template: ComponentStory<typeof AppInput> = (args) => <AppInput {...args} />;
+const Template: ComponentStory<typeof AppInput> = (args) => (
+    <AppInput {...args} />
+);
 
 export const Primary = Template.bind({});
 Primary.args = {

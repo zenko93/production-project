@@ -1,9 +1,9 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator';
-import { Theme } from 'app/providers/ThemeProvider/lib/ThemeContext';
+import { ThemeDecorator } from '@/shared/config/storybook/ThemeDecorator';
 import { AppButton, ButtonSize, ButtonTheme } from './AppButton';
+import { Theme } from '@/shared/const/theme';
 
 export default {
     title: 'shared/AppButton',
@@ -14,7 +14,9 @@ export default {
     decorators: [ThemeDecorator(Theme.LIGHT)],
 } as ComponentMeta<typeof AppButton>;
 
-const Template: ComponentStory<typeof AppButton> = (args) => <AppButton {...args} />;
+const Template: ComponentStory<typeof AppButton> = (args) => (
+    <AppButton {...args} />
+);
 
 export const Primary = Template.bind({});
 Primary.args = {

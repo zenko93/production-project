@@ -6,19 +6,17 @@ describe('loginSlice.test', () => {
         const mockedState = { username: '123' };
         const state: DeepPartial<LoginSchema> = mockedState;
 
-        expect(loginReducer(
-            state as LoginSchema,
-            loginActions.setUsername('123'),
-        )).toBe(mockedState);
+        expect(
+            loginReducer(state as LoginSchema, loginActions.setUsername('123')),
+        ).toBe(mockedState);
     });
 
     test('test set password', () => {
         const mockedState = { password: '123' };
         const state: DeepPartial<LoginSchema> = mockedState;
 
-        expect(loginReducer(
-            state as LoginSchema,
-            loginActions.setPassword('123'),
-        )).toBe(mockedState);
+        expect(
+            loginReducer(state as LoginSchema, loginActions.setPassword('123')),
+        ).toBe(mockedState);
     });
 });

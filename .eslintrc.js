@@ -8,6 +8,7 @@ module.exports = {
         'plugin:react/recommended',
         'airbnb',
         'plugin:i18next/recommended',
+        'prettier',
     ],
     parser: '@typescript-eslint/parser',
     parserOptions: {
@@ -22,11 +23,11 @@ module.exports = {
         '@typescript-eslint',
         'i18next',
         'react-hooks',
+        'evgen-fsd',
+        'unused-imports',
     ],
     rules: {
-        'react/jsx-indent': [2, 4],
-        'react/jsx-indent-props': [2, 4],
-        indent: [2, 4],
+        'unused-imports/no-unused-imports': 'error',
         'react/jsx-filename-extension': [
             2,
             { extensions: ['.js', '.jsx', '.tsx'] },
@@ -47,15 +48,29 @@ module.exports = {
             'error',
             {
                 markupOnly: true,
-                ignoreAttribute: ['data-testid', 'to', 'target'],
+                ignoreAttribute: [
+                    'as',
+                    'role',
+                    'data-testid',
+                    'to',
+                    'target',
+                    'justify',
+                    'align',
+                    'direction',
+                    'gap',
+                    'border',
+                ],
             },
         ],
-        'max-len': ['error', {
-            ignoreComments: true,
-            code: 120,
-            ignorePattern: '^import\\s.+\\sfrom\\s.+;$',
-            ignoreUrls: true,
-        }],
+        'max-len': [
+            'error',
+            {
+                ignoreComments: true,
+                code: 120,
+                ignorePattern: '^import\\s.+\\sfrom\\s.+;$',
+                ignoreUrls: true,
+            },
+        ],
         'jsx-a11y/no-static-element-interactions': 'off',
         'jsx-a11y/click-events-have-key-events': 'off',
         'react-hooks/rules-of-hooks': 'error',
@@ -65,6 +80,26 @@ module.exports = {
         'no-undef': 'off',
         'react/no-array-index-key': 'off',
         'arrow-body-style': 'off',
+        'evgen-fsd/path-checker': ['error', { alias: '@' }],
+        'evgen-fsd/layer-imports': [
+            'error',
+            {
+                alias: '@',
+                ignoreImportPatterns: ['**/StoreProvider', '**/testing'],
+            },
+        ],
+        'evgen-fsd/public-api-imports': [
+            'error',
+            {
+                alias: '@',
+                testFilesPatterns: [
+                    '**/*.test.*',
+                    '**/*.story.*',
+                    '**/StoreDecorator.tsx',
+                ],
+            },
+        ],
+        'react/jsx-max-props-per-line': ['error', { maximum: 4 }],
     },
     globals: {
         __IS_DEV__: true,

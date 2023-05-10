@@ -1,9 +1,9 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator';
-import { Theme } from 'app/providers/ThemeProvider/lib/ThemeContext';
+import { ThemeDecorator } from '@/shared/config/storybook/ThemeDecorator';
 import { PageError } from './PageError';
+import { Theme } from '@/shared/const/theme';
 
 export default {
     title: 'widget/PageError',
@@ -13,7 +13,9 @@ export default {
     },
 } as ComponentMeta<typeof PageError>;
 
-const Template: ComponentStory<typeof PageError> = (args) => <PageError {...args} />;
+const Template: ComponentStory<typeof PageError> = (args) => (
+    <PageError {...args} />
+);
 
 export const Light = Template.bind({});
 Light.args = {};

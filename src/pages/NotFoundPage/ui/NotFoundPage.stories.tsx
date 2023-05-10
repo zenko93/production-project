@@ -1,9 +1,9 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator';
-import { Theme } from 'app/providers/ThemeProvider/lib/ThemeContext';
+import { ThemeDecorator } from '@/shared/config/storybook/ThemeDecorator';
 import { NotFoundPage } from './NotFoundPage';
+import { Theme } from '@/shared/const/theme';
 
 export default {
     title: 'pages/NotFoundPage',
@@ -13,7 +13,9 @@ export default {
     },
 } as ComponentMeta<typeof NotFoundPage>;
 
-const Template: ComponentStory<typeof NotFoundPage> = (args) => <NotFoundPage {...(args as typeof NotFoundPage)} />;
+const Template: ComponentStory<typeof NotFoundPage> = (args) => (
+    <NotFoundPage {...(args as typeof NotFoundPage)} />
+);
 
 export const Light = Template.bind({});
 Light.args = {};

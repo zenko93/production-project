@@ -1,7 +1,7 @@
-import { classNames } from 'shared/lib/classNames/classNames';
-import { memo, ReactNode, useCallback } from 'react';
-import { AppButton, ButtonTheme } from 'shared/ui/AppButton/AppButton';
-import CopyIcon from 'shared/assets/icons/copy-20-20.svg';
+import { memo, useCallback } from 'react';
+import { classNames } from '@/shared/lib/classNames/classNames';
+import { AppButton, ButtonTheme } from '../AppButton/AppButton';
+import CopyIcon from '@/shared/assets/icons/copy-20-20.svg';
 import cls from './Code.module.scss';
 
 interface CodeProps {
@@ -18,12 +18,14 @@ export const Code = memo((props: CodeProps) => {
 
     return (
         <pre className={classNames(cls.Code, {}, [className])}>
-            <AppButton onClick={onCopy} className={cls.copyBtn} theme={ButtonTheme.CLEAR}>
+            <AppButton
+                onClick={onCopy}
+                className={cls.copyBtn}
+                theme={ButtonTheme.CLEAR}
+            >
                 <CopyIcon className={cls.copyIcon} />
             </AppButton>
-            <code>
-                {text}
-            </code>
+            <code>{text}</code>
         </pre>
     );
 });

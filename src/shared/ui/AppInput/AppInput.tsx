@@ -1,12 +1,13 @@
-import { classNames, Mods } from 'shared/lib/classNames/classNames';
-import React, {
-    InputHTMLAttributes, memo, useEffect, useRef,
-} from 'react';
+import React, { InputHTMLAttributes, memo, useEffect, useRef } from 'react';
+import { classNames, Mods } from '@/shared/lib/classNames/classNames';
 import cls from './AppInput.module.scss';
 
-type HTMLInputProps = Omit<InputHTMLAttributes<HTMLInputElement>, 'onChange' | 'readOnly'>
+type HTMLInputProps = Omit<
+    InputHTMLAttributes<HTMLInputElement>,
+    'onChange' | 'readOnly'
+>;
 
-interface AppInputProps extends HTMLInputProps{
+interface AppInputProps extends HTMLInputProps {
     className?: string;
     value?: string | number;
     onChange?: (value: string) => void;
@@ -45,9 +46,7 @@ export const AppInput = memo((props: AppInputProps) => {
     return (
         <div className={classNames(cls.InputWrapper, mods, [className])}>
             {placeholder && (
-                <div className={cls.placeholder}>
-                    {`${placeholder}>`}
-                </div>
+                <div className={cls.placeholder}>{`${placeholder}>`}</div>
             )}
 
             <input
