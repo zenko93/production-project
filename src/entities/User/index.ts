@@ -1,3 +1,5 @@
+export { initAuthData } from './model/services/initAuthData';
+
 export { UserRole } from './consts/consts';
 export {
     isUserAdmin,
